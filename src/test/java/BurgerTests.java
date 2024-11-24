@@ -164,7 +164,6 @@ public class BurgerTests {
 
         // Преобразуем символы перевода строки (\r\n -> \n) для унификации.
         actualReceipt = actualReceipt.replaceAll("\r\n", "\n");
-        expectedReceipt = expectedReceipt.replaceAll("\r\n", "\n");
 
         // Проверяем, что сгенерированный чек соответствует ожидаемому.
         Assert.assertEquals(expectedReceipt, actualReceipt);
