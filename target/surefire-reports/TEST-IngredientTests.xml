@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="IngredientTests" time="0.001" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\cygwin64\home\anton\Projects\Diplom\Diplom_1\target\test-classes;D:\cygwin64\home\anton\Projects\Diplom\Diplom_1\target\classes;C:\Users\anton\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\anton\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\anton\.m2\repository\org\mockito\mockito-core\4.8.0\mockito-core-4.8.0.jar;C:\Users\anton\.m2\repository\net\bytebuddy\byte-buddy\1.12.14\byte-buddy-1.12.14.jar;C:\Users\anton\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.14\byte-buddy-agent-1.12.14.jar;C:\Users\anton\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.24_8\bin"/>
+    <property name="sun.java.command" value="C:\Users\anton\AppData\Local\Temp\surefire9028156489315397027\surefirebooter-20241128171527347_3.jar C:\Users\anton\AppData\Local\Temp\surefire9028156489315397027 2024-11-28T17-15-27_047-jvmRun1 surefire-20241128171527347_1tmp surefire_0-20241128171527347_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\cygwin64\home\anton\Projects\Diplom\Diplom_1\target\test-classes;D:\cygwin64\home\anton\Projects\Diplom\Diplom_1\target\classes;C:\Users\anton\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\anton\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\anton\.m2\repository\org\mockito\mockito-core\4.8.0\mockito-core-4.8.0.jar;C:\Users\anton\.m2\repository\net\bytebuddy\byte-buddy\1.12.14\byte-buddy-1.12.14.jar;C:\Users\anton\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.14\byte-buddy-agent-1.12.14.jar;C:\Users\anton\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anton"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.24_8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\cygwin64\home\anton\Projects\Diplom\Diplom_1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\anton\AppData\Local\Temp\surefire9028156489315397027\surefirebooter-20241128171527347_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.24+8-LTS"/>
+    <property name="user.name" value="anton"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.24.8.1"/>
+    <property name="localRepository" value="C:\Users\anton\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\anton\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.2.1"/>
+    <property name="java.version" value="11.0.24"/>
+    <property name="user.dir" value="D:\cygwin64\home\anton\Projects\Diplom\Diplom_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.24_8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.24_8\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Tonfotos\CUDA Runtime Libraries v12.1\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon Corretto\jdk11.0.24_8\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Tonfotos\CUDA Runtime Libraries v12.1\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\anton\AppData\Local\Microsoft\WindowsApps;C:\Users\anton\AppData\Local\Programs\Fiddler;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\anton\AppData\Local\GitHubDesktop\bin;C:\WebDriver\bin;C:\Program Files\Mozilla Firefox;C:\allure-commandline-2.15.0\allure-2.15.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.24+8-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testConstructorAndGetters[0]" classname="IngredientTests" time="0.0"/>
+  <testcase name="testConstructorAndGetters[1]" classname="IngredientTests" time="0.0"/>
+  <testcase name="testConstructorAndGetters[2]" classname="IngredientTests" time="0.0"/>
+  <testcase name="testConstructorAndGetters[3]" classname="IngredientTests" time="0.0"/>
+  <testcase name="testConstructorAndGetters[4]" classname="IngredientTests" time="0.0"/>
+  <testcase name="testConstructorAndGetters[5]" classname="IngredientTests" time="0.0"/>
+</testsuite>
