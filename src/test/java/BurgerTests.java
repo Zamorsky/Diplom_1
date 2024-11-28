@@ -9,7 +9,7 @@ import praktikum.Bun; // Класс булочки
 import praktikum.Burger; // Класс бургера
 import praktikum.Ingredient; // Класс ингредиента
 import praktikum.IngredientType; // Перечисление типов ингредиентов (начинка или соус)
-
+import constants.Const;
 import java.util.List; // Импортируем класс для работы со списками
 
 // Аннотация @RunWith указывает, что тесты будут выполняться с помощью MockitoJUnitRunner,
@@ -129,7 +129,7 @@ public class BurgerTests {
         float expectedPrice = 2 * 50.0f + 30.0f + 15.0f;
 
         // Проверяем, что вычисленная цена совпадает с ожидаемой (с допуском 0.001).
-        Assert.assertEquals(expectedPrice, price, 0.001f);
+        Assert.assertEquals(expectedPrice, price, Const.DELTA);
     }
 
     // Тестируем создание чека (getReceipt).

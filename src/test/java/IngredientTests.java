@@ -8,6 +8,7 @@ import praktikum.Ingredient;
 import praktikum.IngredientType;
 import java.util.Arrays;
 import java.util.Collection;
+import constants.Const;
 
 @RunWith(Parameterized.class)
 public class IngredientTests {
@@ -42,6 +43,6 @@ public class IngredientTests {
         // Проверяем значения через геттеры
         Assert.assertEquals("Ошибка! Тип ингредиента не совпал с ожидаемым:", type, ingredient.getType());
         Assert.assertEquals("Ошибка! Название ингредиента не совпало с ожидаемым:", name, ingredient.getName());
-        Assert.assertEquals("Ошибка! Цена ингредиента не совпала с ожидаемой:", price, ingredient.getPrice(), 0.001f);
+        Assert.assertEquals("Ошибка! Цена ингредиента не совпала с ожидаемой:", price, ingredient.getPrice(), Const.DELTA);
     }
 }

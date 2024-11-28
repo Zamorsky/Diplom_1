@@ -1,4 +1,4 @@
-import Const.Const;
+import constants.Const;
 import org.junit.Test; // Импортируем аннотацию @Test
 import org.junit.runner.RunWith; // Импортируем аннотацию @RunWith для указания параметризованного запуска
 import org.junit.runners.Parameterized; // Импортируем класс Parameterized для работы с параметризацией
